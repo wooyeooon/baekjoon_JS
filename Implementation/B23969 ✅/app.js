@@ -1,3 +1,5 @@
+// 문제풀이: https://www.acmicpc.net/problem/23969
+
 const { exit } = require("process");
 
 const input = require("fs")

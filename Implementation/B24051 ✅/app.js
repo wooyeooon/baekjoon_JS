@@ -1,3 +1,5 @@
+// 문제풀이: https://www.acmicpc.net/problem/24051
+
 const input = require("fs")
   .readFileSync("/dev/stdin")
   .toString()
