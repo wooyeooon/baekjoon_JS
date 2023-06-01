@@ -33,7 +33,7 @@ let input = fs.readFileSync(filePath).toString().trim().split("\n");
 ```
 
 ```javascript
-// 4. 입력값이 첫 번째 줄에는 입력 값의 길이(n), 두 번째 줄에 공백으로 구분된 입력값이 주어질 때
+// 4. 첫 번째 줄에 자연수 n을 입력받고, 그 다음줄에 공백으로 구분된 n개의 값들을 입력받을 때
 /* ex)
 3
 110 78 158
