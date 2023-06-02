@@ -5,6 +5,8 @@ const fs = require('fs');
 const filePath = process.platform === 'linux' ? '/dev/stdin' : './input.txt';
 let input = fs.readFileSync(filePath).toString().trim().split('\n');
 
+
+// 스택을 활용한 풀이
 const len = input.shift();
 for (let i=0; i < len; i++) {
     let answer = '';
@@ -22,3 +24,13 @@ for (let i=0; i < len; i++) {
     
     console.log(answer);
 }
+
+
+// const len = inputs.shift();
+// const result = [];
+
+// for (let i=0; i < len; i++) {
+//   inputs[i].split(" ").forEach(word => result.push(word.split("").reverse().join("")));
+// }
+
+// console.log(result.join("\n"));
