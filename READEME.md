@@ -89,3 +89,9 @@ for (let i = 0; i < total; i++) {
 
 console.log(result);
 ```
+
+```javascript
+let credit = +input[i].split(" ")[1].trim();
+const grade = input[i].split(" ")[2].trim();
+// ObjectOrientedProgramming1 3.0 A+ 자르기
+```
