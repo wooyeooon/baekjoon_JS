@@ -30,7 +30,6 @@ function solution(n, commands){
                     currentIndex -= 1;
                     result = stack.splice(-1);
                     answer += result + ' ';
-                
                 }
                 break;
             case 'size':
